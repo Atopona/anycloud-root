@@ -10,7 +10,7 @@ echo "🟡 正在为 GCP 实例开启 root SSH 登录..."
 
 # 1. 设置 root 密码
 echo "请输入新的 root 密码："
-passwd root
+sudo passwd root
 
 # 2. 启用 root SSH 登录
 SSHD_CONFIG="/etc/ssh/sshd_config"
